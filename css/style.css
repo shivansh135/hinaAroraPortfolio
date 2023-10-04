@@ -1025,10 +1025,13 @@ a:focus {
 
 .price .price-title h2 {
     font-size: 25px;
-    font-weight: 400;
+    font-weight: 600;
     text-transform: uppercase;
 }
 
+.price .price-prices{
+    display: none;
+}
 .price .price-prices h2 {
     font-size: 45px;
     font-weight: 700;
@@ -1316,7 +1319,7 @@ a:focus {
     position: relative;
     width: 100%;
     margin: 45px 0;
-    background: #EF233C;
+    background: #ffffff;
     padding-top: 50px;
     padding-bottom: 50px;
 }
@@ -1329,50 +1332,50 @@ a:focus {
 .contact .contact-form {
     position: relative;
     padding: 90px 0 90px 45px;
-    background: #EF233C;
+    background: #ffffff;
 }
 
 .contact .contact-form input {
-    color: #ffffff;
+    color: #EF233C;
     padding: 15px 0;
     background: none;
     border-radius: 0;
     border: none;
-    border-bottom: 1px solid rgba(256, 256, 256, .5);
+    border-bottom: 1px solid #EF233C66;
 }
 
 .contact .contact-form textarea {
-    color: #ffffff;
+    color: #EF233C;
     height: 90px;
     padding: 15px 0;
     background: none;
     border-radius: 0;
     border: none;
-    border-bottom: 1px solid rgba(256, 256, 256, .5);
+    border-bottom: 1px solid #EF233C66;
 }
 
 .contact .contact-form .form-control::placeholder {
-    color: #ffffff;
+    color: #EF233C;
     opacity: 1;
 }
 
 .contact .contact-form .form-control:-ms-input-placeholder,
 .contact .contact-form .form-control::-ms-input-placeholder {
-    color: #ffffff;
+    color: #EF233C;
 }
 
 .contact .contact-form .btn {
     margin-top: 35px;
-    color: #EF233C;
-    background: #ffffff;
-    box-shadow: inset 0 0 0 50px #ffffff;
+    color: #ffffff;
+    background: #EF233C;
+    box-shadow: inset 0 0 0 50px #EF233C66;
 }
 
 .contact .contact-form .btn:hover {
-    color: #ffffff;
+    color: #EF233C;
     background: transparent;
-    box-shadow: inset 0 0 0 0 #ffffff;
-    border-color: #ffffff;
+    box-shadow: inset 0 0 0 0 #EF233C;
+    border-color: #EF233C;
 }
 
 .contact .help-block ul {
@@ -1381,7 +1384,7 @@ a:focus {
     list-style-type: none;
     font-size: 14px;
     font-style: italic;
-    color: #ffffff;
+    color: #EF233C;
 }
 
 @media (max-width: 767.98px) {
@@ -1477,7 +1480,7 @@ a:focus {
 .footer {
     position: relative;
     margin-top: 45px;
-    background: #fff;
+    background: #EF233C;
 }
 
 .footer .container-fluid {
@@ -1494,14 +1497,14 @@ a:focus {
     margin-bottom: 20px;
     font-size: 30px;
     font-weight: 700;
-    color: #414141;
+    color: #ffffff;
 }
 
 .footer .footer-info h3 {
     margin-bottom: 25px;
     font-size: 22px;
     font-weight: 600;
-    color: #414141;
+    color: #ffffff;
 }
 
 .footer .footer-menu {
@@ -1511,12 +1514,12 @@ a:focus {
 }
 
 .footer .footer-menu p {
-    color: #414141;
+    color: #ffffff;
     font-size: 22px;
     font-weight: 600;
     line-height: 20px;
     padding: 0 15px;
-    border-right: 1px solid #414141;
+    border-right: 1px solid #ffffff;
 }
 
 .footer .footer-menu p:last-child {
@@ -1535,7 +1538,7 @@ a:focus {
 .footer .footer-social a i {
     margin-right: 15px;
     font-size: 20px;
-    color: #414141;
+    color: #ffffff;
     transition: .3s;
 }
 
@@ -1544,7 +1547,7 @@ a:focus {
 }
 
 .footer .footer-social a:hover i {
-    color: #414141;
+    color: #ffffff;
 }
 
 .footer .copyright {
@@ -1567,7 +1570,7 @@ a:focus {
 
 .footer .copyright p {
     margin: 0;
-    color: #414141;
+    color: #ffffff;
 }
 
 .footer .copyright .col-md-6:last-child p {
@@ -1575,12 +1578,12 @@ a:focus {
 }
 
 .footer .copyright p a {
-    color: #414141;
+    color: #ffffff;
     font-weight: 600;
 }
 
 .footer .copyright p a:hover {
-    color: #414141;
+    color: #ffffff;
 }
 
 @media (max-width: 575.98px) {
